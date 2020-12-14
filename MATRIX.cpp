@@ -99,8 +99,7 @@ main()
 			default:
 				cout << "what are you doing? you have 4 options only bye!";
 			}
-			cout << endl;
-			cout << endl;
+			cout << endl << endl;
 			cout << "Wanna continue ? " << endl;
 			cout << "0-No" << "\t 1-Yes" << endl;
 			cin >> cont;
@@ -109,8 +108,7 @@ main()
 		else 
 		{
 			cout << "Wrong input.\nPlease choose a number in the correct range\n";
-			cout << endl;
-			cout << endl;
+			cout << endl << endl;
 			cout << "Wanna continue ? " << endl;
 			cout << "0-No" << "\t 1-Yes" << endl;
 			cin >> cont;	
